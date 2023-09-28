@@ -6,4 +6,6 @@ def test_1():
 def test_2():
 	assert f.puissance( 2.5, 2 ) == 6
 	assert f.puissance( -6 , 2 ) == 36
-	
+def test_3():
+	if a = 0 and b < 0 :
+		raise TypeError("Impossible ! ") 
