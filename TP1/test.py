@@ -6,4 +6,6 @@ def test_1():
 def test_2():
 	assert f.puissance( -2 , 2 ) == 4
 	assert f.puissance( -6 , 2 ) == 36
-
+	
+	if assert f.puissance( 0 , -2 ) == 0 :
+		raise TypeError("Only integers are allowed")
