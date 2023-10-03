@@ -36,6 +36,8 @@ Q2.5) Non il n'est pas versionné
 
 Q2.6) Non je ne peux pas voir le dossier web et le fichier html une faois que j'ai basculé sur la branche main.
 
-Q2.7) Cela affiche les modifications que j'ai fait le fichier tp2.txt
+Q2.7) Cela affiche les modifications que j'ai fait dans le fichier tp2.txt
 
-Q2.8)  
+Q3.1) Non, si je modifie le fichier readme, je ne peux pas transmettre les modifications sur son dépot.
+
+Q3.2)
