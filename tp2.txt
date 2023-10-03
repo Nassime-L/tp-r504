@@ -1,0 +1,31 @@
+						TP2
+
+Q1.1) Il y a 9 contributeurs
+
+Q1.2) du -c --block-size=K explain-git-with-d3/
+	408Ko d’espace utilisé
+
+Q1.3) Permet d'examiner le contenu d'un fichier ligne par ligne. De savoir qui a fait la dernière modification sur la ligne et à quel date.
+
+Q1.4) Jake Ginnivan a modifié cette ligne
+
+Q1.5) 3e5d1596
+
+Q1.6) « Adding tag command reference »
+
+Q1.7) Date :  Tue Jun 17 21:47:47 2014
+
+Q1.8) 294c63b9653d93caefdd233da52fc0cd6ca95268
+
+Q1.9) onlywei est l’auteur de ce commit à la date du : Sat Mar 23 09:23:42 2013
+
+Q1.10) git log --oneline | wc -l  ; résultat = 91
+
+Q1.11) Pour la commande git log –format=reference , il y a la date qui est affiché en plus de l’autre commande
+
+Q1.12) git log –format="%an" affiche uniquement le nom de l’auteur
+
+Q1.13) git log --format="%an" | sort | uniq | wc -l affiche 10 auteur.
+	Cela ne correspond pas avec ce qu’il y a sur Github, car onlywei et Wei Wang sont la même personne.
+
+Q2.1)
