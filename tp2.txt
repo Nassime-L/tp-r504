@@ -28,4 +28,14 @@ Q1.12) git log –format="%an" affiche uniquement le nom de l’auteur
 Q1.13) git log --format="%an" | sort | uniq | wc -l affiche 10 auteur.
 	Cela ne correspond pas avec ce qu’il y a sur Github, car onlywei et Wei Wang sont la même personne.
 
-Q2.1)
+Q2.1) git status est la commande à utiliser.
+
+Q2.2) 'origin/main'
+
+Q2.5) Non il n'est pas versionné
+
+Q2.6) Non je ne peux pas voir le dossier web et le fichier html une faois que j'ai basculé sur la branche main.
+
+Q2.7) Cela affiche les modifications que j'ai fait le fichier tp2.txt
+
+Q2.8)  
