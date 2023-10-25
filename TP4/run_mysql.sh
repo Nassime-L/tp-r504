@@ -1,5 +1,6 @@
 # script conteneur mysql
 docker run --rm -d \
+	-p 3306:3306 \
 	-v vol-sql-demo:/var/lib/mysql \
 	--name tp4-sql \
 	--env MYSQL_ROOT_PASSWORD=foo \
