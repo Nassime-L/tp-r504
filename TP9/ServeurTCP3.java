@@ -15,11 +15,12 @@ public class ServeurTCP3
 				Socket socket = socketserver.accept();
 				System.out.println("Connection d'un client");
 				DataInputStream dIn = new DataInputStream( socket.getInputStream() );
-				System.out.println("Message : " + dIn.readUTF() );
-				String rev = new StringBuilder(dIn.readUTF()).reverse().toString();
-				System.out.println(rev);
-//				DataOutputStream dOut2 = new DataOutputStream( socket.getOutputStream() );
-//				dOut2.writeUTF( rev );		
+				String msg = dIn.readUTF();
+				System.out.println("Message : " + msg );
+				String rev = new StringBuilder(msg).reverse().toString();
+				System.out.println("Message inversé : " + rev);
+				DataOutputStream dOut2 = new DataOutputStream(socket.getOutputStream());
+				dOut2.writeUTF( rev );		
 			}
 		}
 		catch(Exception ex) 

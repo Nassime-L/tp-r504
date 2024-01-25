@@ -11,9 +11,9 @@ public class ClientTCP3
 			Socket socket= new Socket( "localhost", 2016 );
 			DataOutputStream dOut = new DataOutputStream( socket.getOutputStream() );
 			dOut.writeUTF( args[0] );
+			//socket.close(); permet de laisser le serveur et d'envoyer un autre message
 			DataInputStream dIn2 = new DataInputStream( socket.getInputStream() );
 			System.out.println("Message inversé : " + dIn2.readUTF() );
-			
 		}
 		catch(Exception ex) 
 		{
