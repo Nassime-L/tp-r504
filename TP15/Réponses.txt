@@ -1,0 +1,27 @@
+Question 1.1 :
+	man umask : manuel d'utilisation de la commande umask
+	head -4 : affiche les 4 premières ligne 
+	tail -1 : affiche la dernière ligne
+	la combinaison avec "|" affiche uniquement la dernière ligne des 4 première lignes
+Question 1.2 :
+	0644
+Question 1.3 :
+	0755
+Question 1.4 :
+	0022
+Question 1.5 :
+	Le umask n'a pas changé dans la première console
+Question 1.6 :
+	umask pour les fichiers : rw------- umask 077 (666-166=600)
+	umask pour les dossier : r-xr-xr-x umask 222   (777-222=555)
+Question 2.1 :
+	config-5.10.0-28-amd64
+Question 2.2 :
+	ls /boot/ | uname -r
+Question 2.3 :
+	sudo cat /boot/config-5.10.0-28-amd64 | grep ACL | wc -l
+	Oui les ACL sont activées.
+Question 2.4 :
+	sudo tune2fs -l /dev/sda1
+	oui elles sont disponible : sudo tune2fs -l /dev/sda1 | grep acl
+Question 2.5 :
